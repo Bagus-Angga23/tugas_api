@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       routes: {
-        '/home': (context) => MyHomePage(title: 'Flutter Demo'),
+        '/home': (context) => MyHomePage(title: 'Flutter API'),
         '/add-user': (context) => AddUser(),
       },
       debugShowCheckedModeBanner: false,
